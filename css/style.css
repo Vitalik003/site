@@ -33,7 +33,6 @@ nav ul li a {
 	color: black;
 	cursor: pointer;
 	text-decoration: none;
-	transition: all .2s ease-in-out;
 }
 
 nav.black {
@@ -53,18 +52,16 @@ nav.black li a {
 }
 
 nav.black li a:hover {
-	background-color: white;
 	border: none;
 	border-bottom: 3px solid orange;
-	color: black;
+	color: white;
 }
 
 nav li a:hover {
-	background-color: black;
-	color: white;
 	border: none;
 	border-bottom: 3px solid yellowgreen;
 	text-decoration: none;
+	color: #000;
 }
 
 .img img {
