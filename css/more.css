@@ -26,12 +26,11 @@ nav ul li a {
 	color: black;
 	cursor: pointer;
 	text-decoration: none;
-	transition: all .2s ease-in-out;
+	font-weight: bold;
 }
 
 nav li a:hover {
-	background-color: black;
-	color: white;
+	color: #000;
 	border: none;
 	border-bottom: 3px solid yellowgreen;
 	text-decoration: none;
