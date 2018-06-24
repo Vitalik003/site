@@ -72,82 +72,24 @@ nav li a:hover {
 .h1 {
 	display: flex;
 	justify-content: center;
-	font-size: 35px;
-	margin-top: 20px;
+	font-size: 40px;
+	margin-top: 50px;
 }
 
 .text {
-	padding: 0 100px 0 100px;
-	line-height: 25px;
-	text-align: center;
+	padding: 0 100px 50px 100px;
+	line-height: 30px;
+	text-align: justify;
 	font-size: 18px;
 	margin-bottom: 20px;
-}
-
-.backg {
-	width: 100%;
-	height: 1200px;
-	margin-top: 20px;
-	background-image: url(../img/austria.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.block {
-	width: 600px;
-	height: 400px;
-	display: inline-block;
-	margin: 200px 0 0 100px;
-	background-color: rgba(225, 225, 225,.7);
-	border-radius: 10px;
-	border: none;
-	border-bottom: 3px solid orange;
-	border-radius: 15px;
-	z-index: 1;
-}
-
-.block1 {
-	width: 600px;
-	height: 400px;
-	display: inline-block;
-	margin: 75px 0 0 100px;
-	background-color: rgba(225, 225, 225,.7);
-	border-radius: 10px;
-	border: none;
-	border-bottom: 3px solid orange;
-	z-index: 1;
-}
-
-.text1 {
-	line-height: 25px;
-	text-align: center;
-	font-size: 18px;
-	padding: 10px 10px 5px 10px;
-	z-index: 2;
-}
-
-.text2 {
-	text-align: center;
-	padding: 10px 10px 5px 10px;
-	z-index: 2;
-}
-
-.foto {
-	margin-left: 75px;
-}
-
-.foto img {
-	width: 350px;
-	height: 200px;
 }
 
 .bl {
 	width: 400px;
 	height: 450px;
-	margin: 75px 20px 0px 25px;
+	margin: 30px 20px 30px 25px;
 	display: inline-block;
-	background-color: #cccccc;
+	background-color: #99ff66;
 	border-radius: 10px;
 }
 
@@ -164,6 +106,10 @@ nav li a:hover {
 
 .slovo p {
 	text-align: center;
+}
+
+.back {
+	background-image: url(../img/austria.jpg);
 }
 
 .view {
@@ -196,51 +142,11 @@ nav li a:hover {
 	transition: all .2s;
 }
 
-.description {
-	width: 100%;
-	height: 100%;
-	background-color: #cccccc;
-	display: inline-block;
-}
-
-.description div {
-	width: 1000px;
-	height: 800px;
-	background-color: white;
-	text-align: justify;
-	font-size: 18px;
-	padding: 50px 75px 0 75px;
-	margin-left: 175px;
-	margin-top: 100px;
-}
-
 footer {
 	width: 100%;
-	height: 200px;
-	background-color: black;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	color: white;
+	background-color: gray;
 }
-
-footer ul {
-	padding: 0;
-	margin: 0;
-}
-
-footer ul li {
-	list-style: none;
-	padding: 10px 0px 0px 0px;
-	margin-left: 650px;
-}
-
-footer ul li a {
-	text-decoration: none;
-	color: #fff;
-}
-
-footer ul li a:hover {
-	color: #fff;
-	text-decoration: underline;
-}
-
-
-
-
