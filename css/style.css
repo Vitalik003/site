@@ -11,6 +11,7 @@ nav {
 	padding: 10px 100px;
 	box-sizing: border-box;
 	transition: all .4s ease-in-out;
+	z-index: 5;
 }
 
 nav ul {
@@ -35,6 +36,10 @@ nav ul li a {
 	text-decoration: none;
 }
 
+nav h1 {
+	cursor: pointer;
+}
+
 nav.black {
 	position: fixed;
 	background-color: rgba(0, 0, 0,.8);
@@ -43,12 +48,25 @@ nav.black {
 	line-height: 60px;
 	transition: all .4s ease-in-out;
 	box-shadow: 0px 5px 5px 0px;
+	z-index: 5;
 }
 
 nav.black li a {
 	text-decoration: none;
 	color: white;
 	line-height: 60px;
+}
+
+nav.black h1 {
+	color: white;
+	text-transform: uppercase;
+	line-height: 30px;
+}
+
+nav.black h1:hover {
+	transform: rotate(360deg);
+	transition: 0.5s;
+	cursor: pointer;
 }
 
 nav.black li a:hover {
@@ -64,24 +82,15 @@ nav li a:hover {
 	color: #000;
 }
 
+.focus:hover {
+	background-color: #d9d9d9;
+	transition: all .2s ease-in-out;
+	cursor: pointer;
+}
+
 .img img {
 	width: 100%;
 	height: 100vh;
-}
-
-.h1 {
-	display: flex;
-	justify-content: center;
-	font-size: 40px;
-	margin-top: 50px;
-}
-
-.text {
-	padding: 0 100px 50px 100px;
-	line-height: 30px;
-	text-align: justify;
-	font-size: 18px;
-	margin-bottom: 20px;
 }
 
 .bl {
@@ -91,6 +100,11 @@ nav li a:hover {
 	display: inline-block;
 	background-color: #99ff66;
 	border-radius: 10px;
+}
+
+.bl:hover {
+	-moz-transform: rotate(-3deg);
+	z-index: 1;
 }
 
 .png img {
@@ -142,11 +156,19 @@ nav li a:hover {
 	transition: all .2s;
 }
 
-footer {
-	width: 100%;
-	height: 30px;
-	display: flex;
-	justify-content: center;
-	color: white;
-	background-color: gray;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
