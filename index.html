@@ -4,20 +4,21 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="./fontawesome/fontcss/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"> 
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<nav>
-		<div style="float: left;"><h1>Logo</h1></div>
+		<div style="float: left;"><h1>L<i class="fab fa-apple"></i>GO</h1></div>
 		<ul>
-			<li><a href="https://www.google.com/" target="_blank" class="active">Home</a></li>
-			<li><a href="https://www.google.com/" target="_blank">Services</a></li>
-			<li><a href="https://www.google.com/" target="_blank">Team</a></li>
-			<li><a href="https://www.google.com/" target="_blank">Help</a></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Shop</a></li>
+			<li><a href="#">Help</a></li>
 		</ul>
 	</nav>
 	<div class="img">
-		<img src="img/2e0a23c90ce9f2baf6b3a1b09148866d.jpg" alt="background">
+		<img src="img/iphone-x-clean-mockup-design-1.png" alt="background">
 	</div>
 	<div class="focus" style="display: inline-block; width: 300px; padding: 72px;">
 		<h3 style="text-align: center;"><i class="fab fa-apple fa-2x"></i></h3>
@@ -34,36 +35,43 @@
 <section class="back">
 	<div class="bl">
 		<div class="png">
-			<img src="img/483510755.jpg">
-		</div>
-		<div class="slovo">
-			<h1>Котік</h1>
-			<hr width="300" color="gray">
-			<p>Дуже пушиста і мила тваринка.Любить бавитися.</p>
+			<img src="img/screenshot14.jpg">
 		</div>
 	</div>
 	<div class="bl">
 		<div class="png">
-			<img src="img/redpanda.jpg">
-		</div>
-		<div class="slovo">
-			<h1>Єнот</h1>
-			<hr width="300" color="gray">
-			<p>Дуже пушиста і мила тваринка.Любить бавитися.</p>
+			<img src="img/1523350997-5267.PNG">
 		</div>
 	</div>
 	<div class="bl">
 		<div class="png">
-			<img src="img/E57753.jpg">
+			<img src="img/43387.jpg">
 		</div>
-		<div class="slovo">
-			<h1>Верблюд</h1>
-			<hr width="300" color="gray">
-			<p>Дуже витривала тварина.За допомогою свого горба на спині.</p>
+	</div>
+	<div class="bl">
+		<div class="png">
+			<img src="img/announce.jpg">
+		</div>
+	</div>
+	<div class="bl">
+		<div class="png">
+			<img src="img/iPhone-88-Plus.jpg">
+		</div>
+	</div>
+	<div class="bl">
+		<div class="png">
+			<img src="img/apple_productiphone.jpg">
 		</div>
 	</div>
 </section>
-
+<div class="footer">
+	<ul>
+		<li><a href="#">Конфіденційність</a></li>
+		<li><a href="#">Проблеми з сайтом?</a></li>
+		<li><a href="#">Зв'яжіться з нами</a></li>
+	</ul>
+	<p>Copyright by: Vitaliy</p>
+</div>
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script type="text/javascript">
 	$(window).on('scroll', function() {
@@ -72,6 +80,14 @@
 		}
 		else {
 			$('nav').removeClass('black');
+		}
+	})
+	$(window).on('scroll', function() {
+		if($(window).scrollTop()) {
+			$('nav.black h1').addClass('rotate');
+		}
+		else {
+			$('nav.black h1').removeClass('rotate');
 		}
 	})
 </script>
