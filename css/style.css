@@ -114,7 +114,7 @@ nav li a:hover {
 }
 
 .bl:hover {
-	-moz-transform: rotate(-1deg);
+	transform: rotate(-1deg);
 	z-index: 1;
 }
 
